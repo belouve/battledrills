@@ -22,3 +22,5 @@ In order:
 - have manager run political football
 - drink
 
+There should still be a breakglass way into the tools. Presumably I can still admin the domain, so kill user access. In a pinch you could roll event log forwarding in Windows and use powershell to find security relevant events as a poor man's SIEM. TCPDump & PKTMON to grab flow.  That gets some monitoring quick and in an emergency. Reinstall your tools if must be.   Need to do an extensive policy review and figure out why one person had the ability to do all that undetected. Define and limit roles, separate responsibilities.    Your org's survival is going to be predicated on showing the ability to learn from pain and make the proper adjustments.
+
